@@ -9,7 +9,34 @@
 </head>
 
 <body>
-    <div class="hello">Definitely should work, and should be red.</div>
+
+    <h1>Basic CSS Inheritance: Inheritance flows downward only</h1>
+
+    <div class="red">
+        <div class="blue">
+            <div class="green">
+                <span>My inherited color?</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="blue">
+        <div>
+            <div>
+                <span>Color: Blue</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="green">
+        <div class="blue">
+            <span>Color: Blue</span>
+        </div>
+    </div>
+
+    <div class="red">
+        <span>Color: Red</span>
+    </div>
 </body>
 
 </html>

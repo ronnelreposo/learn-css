@@ -1,5 +1,10 @@
 
-/* A single class that represents a single style attribute */
-.hello {
+.red {
     color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
 }
